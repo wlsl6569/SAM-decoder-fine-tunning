@@ -16,10 +16,9 @@
 
 
 <h2>Features</h2>
-<p> things that I edited </p>
 <ul>
     <li>using huggingface</li>
-    <li>using box prompt : original code using a point prompt</li> :
+    <li>using box prompt </li>
     <li>training only decoder part</li>
 </ul>
 
