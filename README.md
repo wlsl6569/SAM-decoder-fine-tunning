@@ -7,7 +7,6 @@
 <body>
 
 <h1>SAM Decoder fine-tunning</h1>
-
 <h2>Introduction</h2>
 <p>What's up! This wlsl6569 and this page is about using Hugging Face's SAM for fine-tuning.</p>
 <p>This code is based on a method by Stefan Todoran. You can read his article <a href="https://towardsdatascience.com/learn-transformer-fine-tuning-and-segment-anything-481c6c4ac802" target="_blank">here</a>.</p>
