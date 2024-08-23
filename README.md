@@ -23,7 +23,7 @@
 <p>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">installation</a> for using Hugging Face models and upload and use data within Hugging Face</p> 
 <p>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">SAM</a></p> 
 
-<p></p>
+
 ```
 pip install opencv-python 
 pip install scikit-image
@@ -42,6 +42,7 @@ pip install ipywidgets && \
 conda clean -p -y && \
 conda clean -t -y
 ```
+
 
 </body>
 </html>
