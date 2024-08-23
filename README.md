@@ -19,10 +19,12 @@
     <li>training only decoder part</li>
 </ul>
 
-<h2>How to use HuggingFace</h2>
-<p>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">installation</a> for using Hugging Face models and upload and use data within Hugging Face</p> 
-<p>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">SAM</a></p> 
-
+<h2>How to use HuggingFace SAM</h2>
+<ul>
+  <li>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">installation</a> for using Hugging Face models and upload and use data within Hugging Face</li> 
+  <li>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">SAM</a></li> 
+</ul>
+<p>for using HuggingFace SAM, I installed packages below too!</p>
 
 ```
 pip install opencv-python 
