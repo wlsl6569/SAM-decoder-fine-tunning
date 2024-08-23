@@ -14,9 +14,34 @@
 <h2>Features</h2>
 <p> things that I edited </p>
 <ul>
+    <li>using huggingface</li>
     <li>using box prompt</li>
     <li>training only decoder part</li>
 </ul>
+
+<h2>How to use HuggingFace</h2>
+<p>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">installation</a> for using Hugging Face models and upload and use data within Hugging Face</p> 
+<p>HuggingFcae <a href="https://huggingface.co/docs/huggingface_hub/main/installation" target="_blank">SAM</a></p> 
+
+<p></p>
+```
+pip install opencv-python 
+pip install scikit-image
+conda install matplotlib && \
+pip install -U datasets && \
+conda install -y pillow -c conda-forge && \
+conda install -y huggingface_hub -c conda-forge && \
+conda install -y libjpeg-turbo=2.1.0 && \
+conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia && \
+conda install -y transformers -c conda-forge && \
+conda install -y accelerate && \
+conda install -y monai && \
+pip install fsspec==2023.9.2 
+pip install accelerater
+pip install ipywidgets && \
+conda clean -p -y && \
+conda clean -t -y
+```
 
 </body>
 </html>
