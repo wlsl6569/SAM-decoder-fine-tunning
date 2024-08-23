@@ -8,7 +8,7 @@
 
 <h1>SAM Decoder fine-tunning</h1>
 <h2>Introduction</h2>
-<p>What's up! This wlsl6569 and this page is about using Hugging Face's SAM for fine-tuning.</p>
+<p>What's up! This is wlsl6569 and this page is about using Hugging Face's SAM for fine-tuning.</p>
 <p>This code is based on a method by Stefan Todoran. You can read his article <a href="https://towardsdatascience.com/learn-transformer-fine-tuning-and-segment-anything-481c6c4ac802" target="_blank">here</a>.</p>
 <p>Essentially, this method involves retraining the mask decoder. We assume that the other components of SAM (the encoder and prompts encoder) are functioning properly. Our focus will be on fixing only the mask decoder.</p>
 <p>Therefore, we will freeze all other parts except the mask decoder and retrain it.</p>
